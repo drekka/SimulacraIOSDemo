@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CCEC54828F8D5C0000850E4 /* SimulcraIOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */; };
+		6CCEC54A28F8D5C0000850E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54928F8D5C0000850E4 /* ContentView.swift */; };
+		6CCEC54C28F8D5C1000850E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */; };
+		6CCEC54F28F8D5C1000850E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */; };
+		6CCEC56528F8D5C1000850E4 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC56428F8D5C1000850E4 /* UITests.swift */; };
+		6CCEC57628F8D6FC000850E4 /* simulcra-core in Frameworks */ = {isa = PBXBuildFile; productRef = 6CCEC57528F8D6FC000850E4 /* simulcra-core */; };
+		6CCEC57828F8F823000850E4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC57728F8F823000850E4 /* Network.swift */; };
+		6CCEC57D28FF7A31000850E4 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 6CCEC57C28FF7A31000850E4 /* Nimble */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CCEC55F28F8D5C1000850E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CCEC53C28F8D5C0000850E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CCEC54328F8D5C0000850E4;
+			remoteInfo = SimulcraIOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CCEC54428F8D5C0000850E4 /* SimulcraIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulcraIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulcraIOSDemoApp.swift; sourceTree = "<group>"; };
+		6CCEC54928F8D5C0000850E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CCEC55E28F8D5C1000850E4 /* SimulcraIOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulcraIOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEC56428F8D5C1000850E4 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		6CCEC57728F8F823000850E4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6CCEC57928F924BE000850E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6CCEC57A28FEDF39000850E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CCEC54128F8D5C0000850E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCEC55B28F8D5C1000850E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCEC57628F8D6FC000850E4 /* simulcra-core in Frameworks */,
+				6CCEC57D28FF7A31000850E4 /* Nimble in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CCEC53B28F8D5C0000850E4 = {
+			isa = PBXGroup;
+			children = (
+				6CCEC54628F8D5C0000850E4 /* SimulcraIOSDemo */,
+				6CCEC56128F8D5C1000850E4 /* SimulcraIOSDemoUITests */,
+				6CCEC54528F8D5C0000850E4 /* Products */,
+				6CCEC57428F8D6FC000850E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CCEC54528F8D5C0000850E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEC54428F8D5C0000850E4 /* SimulcraIOSDemo.app */,
+				6CCEC55E28F8D5C1000850E4 /* SimulcraIOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CCEC54628F8D5C0000850E4 /* SimulcraIOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEC57928F924BE000850E4 /* Info.plist */,
+				6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */,
+				6CCEC54928F8D5C0000850E4 /* ContentView.swift */,
+				6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */,
+				6CCEC54D28F8D5C1000850E4 /* Preview Content */,
+				6CCEC57728F8F823000850E4 /* Network.swift */,
+			);
+			path = SimulcraIOSDemo;
+			sourceTree = "<group>";
+		};
+		6CCEC54D28F8D5C1000850E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CCEC56128F8D5C1000850E4 /* SimulcraIOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CCEC57A28FEDF39000850E4 /* Info.plist */,
+				6CCEC56428F8D5C1000850E4 /* UITests.swift */,
+			);
+			path = SimulcraIOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		6CCEC57428F8D6FC000850E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CCEC54328F8D5C0000850E4 /* SimulcraIOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemo" */;
+			buildPhases = (
+				6CCEC54028F8D5C0000850E4 /* Sources */,
+				6CCEC54128F8D5C0000850E4 /* Frameworks */,
+				6CCEC54228F8D5C0000850E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulcraIOSDemo;
+			packageProductDependencies = (
+			);
+			productName = SimulcraIOSDemo;
+			productReference = 6CCEC54428F8D5C0000850E4 /* SimulcraIOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CCEC55D28F8D5C1000850E4 /* SimulcraIOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemoUITests" */;
+			buildPhases = (
+				6CCEC55A28F8D5C1000850E4 /* Sources */,
+				6CCEC55B28F8D5C1000850E4 /* Frameworks */,
+				6CCEC55C28F8D5C1000850E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CCEC56028F8D5C1000850E4 /* PBXTargetDependency */,
+			);
+			name = SimulcraIOSDemoUITests;
+			packageProductDependencies = (
+				6CCEC57528F8D6FC000850E4 /* simulcra-core */,
+				6CCEC57C28FF7A31000850E4 /* Nimble */,
+			);
+			productName = SimulcraIOSDemoUITests;
+			productReference = 6CCEC55E28F8D5C1000850E4 /* SimulcraIOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CCEC53C28F8D5C0000850E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6CCEC54328F8D5C0000850E4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					6CCEC55D28F8D5C1000850E4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6CCEC54328F8D5C0000850E4;
+					};
+				};
+			};
+			buildConfigurationList = 6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulcraIOSDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CCEC53B28F8D5C0000850E4;
+			packageReferences = (
+				6CCEC57128F8D683000850E4 /* XCRemoteSwiftPackageReference "Simulcra" */,
+				6CCEC57B28FF7A31000850E4 /* XCRemoteSwiftPackageReference "Nimble" */,
+			);
+			productRefGroup = 6CCEC54528F8D5C0000850E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CCEC54328F8D5C0000850E4 /* SimulcraIOSDemo */,
+				6CCEC55D28F8D5C1000850E4 /* SimulcraIOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CCEC54228F8D5C0000850E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCEC54F28F8D5C1000850E4 /* Preview Assets.xcassets in Resources */,
+				6CCEC54C28F8D5C1000850E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCEC55C28F8D5C1000850E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CCEC54028F8D5C0000850E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCEC54A28F8D5C0000850E4 /* ContentView.swift in Sources */,
+				6CCEC54828F8D5C0000850E4 /* SimulcraIOSDemoApp.swift in Sources */,
+				6CCEC57828F8F823000850E4 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CCEC55A28F8D5C1000850E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCEC56528F8D5C1000850E4 /* UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CCEC56028F8D5C1000850E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CCEC54328F8D5C0000850E4 /* SimulcraIOSDemo */;
+			targetProxy = 6CCEC55F28F8D5C1000850E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CCEC56628F8D5C1000850E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CCEC56728F8D5C1000850E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CCEC56928F8D5C1000850E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimulcraIOSDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MHZ7974Y8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimulcraIOSDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CCEC56A28F8D5C1000850E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimulcraIOSDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MHZ7974Y8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimulcraIOSDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CCEC56F28F8D5C1000850E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MHZ7974Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimulcraIOSDemoUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Access the local network";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimulcraIOSDemo;
+			};
+			name = Debug;
+		};
+		6CCEC57028F8D5C1000850E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MHZ7974Y8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimulcraIOSDemoUITests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Access the local network";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimulcraIOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulcraIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCEC56628F8D5C1000850E4 /* Debug */,
+				6CCEC56728F8D5C1000850E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCEC56928F8D5C1000850E4 /* Debug */,
+				6CCEC56A28F8D5C1000850E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CCEC56F28F8D5C1000850E4 /* Debug */,
+				6CCEC57028F8D5C1000850E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CCEC57128F8D683000850E4 /* XCRemoteSwiftPackageReference "Simulcra" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/drekka/Simulcra.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		6CCEC57B28FF7A31000850E4 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CCEC57528F8D6FC000850E4 /* simulcra-core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CCEC57128F8D683000850E4 /* XCRemoteSwiftPackageReference "Simulcra" */;
+			productName = "simulcra-core";
+		};
+		6CCEC57C28FF7A31000850E4 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CCEC57B28FF7A31000850E4 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6CCEC53C28F8D5C0000850E4 /* Project object */;
+}
