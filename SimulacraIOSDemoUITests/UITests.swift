@@ -2,7 +2,7 @@
 //  Created by Derek Clarkson on 14/10/2022.
 //
 
-import SimulcraCore
+import SimulacraCore
 import XCTest
 import Nimble
 
@@ -11,7 +11,7 @@ import Nimble
 open class UITestCase: XCTestCase {
 
     /// The mock server.
-    private(set) var server: Simulcra!
+    private(set) var server: Simulacra!
 
     /// Local app reference.
     private(set) var app: XCUIApplication!
@@ -34,7 +34,7 @@ open class UITestCase: XCTestCase {
     ///
     /// - parameter endpoints: The end points needed by the server.
     func launchServer(@EndpointBuilder endpoints: () -> [Endpoint]) throws {
-        server = try Simulcra(verbose: true, endpoints: endpoints)
+        server = try Simulacra(verbose: true, endpoints: endpoints)
     }
 
     /// Launches your app, passing the common launch arguments and any additional

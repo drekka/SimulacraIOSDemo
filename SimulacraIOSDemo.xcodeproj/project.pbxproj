@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CC042ED29021821006A9066 /* Simulacra-core in Frameworks */ = {isa = PBXBuildFile; productRef = 6CC042EC29021821006A9066 /* Simulacra-core */; };
 		6CCEC54828F8D5C0000850E4 /* SimulcraIOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */; };
 		6CCEC54A28F8D5C0000850E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54928F8D5C0000850E4 /* ContentView.swift */; };
 		6CCEC54C28F8D5C1000850E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */; };
 		6CCEC54F28F8D5C1000850E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */; };
 		6CCEC56528F8D5C1000850E4 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC56428F8D5C1000850E4 /* UITests.swift */; };
-		6CCEC57628F8D6FC000850E4 /* simulcra-core in Frameworks */ = {isa = PBXBuildFile; productRef = 6CCEC57528F8D6FC000850E4 /* simulcra-core */; };
 		6CCEC57828F8F823000850E4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC57728F8F823000850E4 /* Network.swift */; };
 		6CCEC57D28FF7A31000850E4 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 6CCEC57C28FF7A31000850E4 /* Nimble */; };
 /* End PBXBuildFile section */
@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CCEC54428F8D5C0000850E4 /* SimulcraIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulcraIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEC54428F8D5C0000850E4 /* SimulacraIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulacraIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulcraIOSDemoApp.swift; sourceTree = "<group>"; };
 		6CCEC54928F8D5C0000850E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6CCEC55E28F8D5C1000850E4 /* SimulcraIOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulcraIOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEC55E28F8D5C1000850E4 /* SimulacraIOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulacraIOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CCEC56428F8D5C1000850E4 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		6CCEC57728F8F823000850E4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		6CCEC57928F924BE000850E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCEC57628F8D6FC000850E4 /* simulcra-core in Frameworks */,
 				6CCEC57D28FF7A31000850E4 /* Nimble in Frameworks */,
+				6CC042ED29021821006A9066 /* Simulacra-core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +63,8 @@
 		6CCEC53B28F8D5C0000850E4 = {
 			isa = PBXGroup;
 			children = (
-				6CCEC54628F8D5C0000850E4 /* SimulcraIOSDemo */,
-				6CCEC56128F8D5C1000850E4 /* SimulcraIOSDemoUITests */,
+				6CCEC54628F8D5C0000850E4 /* SimulacraIOSDemo */,
+				6CCEC56128F8D5C1000850E4 /* SimulacraIOSDemoUITests */,
 				6CCEC54528F8D5C0000850E4 /* Products */,
 				6CCEC57428F8D6FC000850E4 /* Frameworks */,
 			);
@@ -73,13 +73,13 @@
 		6CCEC54528F8D5C0000850E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEC54428F8D5C0000850E4 /* SimulcraIOSDemo.app */,
-				6CCEC55E28F8D5C1000850E4 /* SimulcraIOSDemoUITests.xctest */,
+				6CCEC54428F8D5C0000850E4 /* SimulacraIOSDemo.app */,
+				6CCEC55E28F8D5C1000850E4 /* SimulacraIOSDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6CCEC54628F8D5C0000850E4 /* SimulcraIOSDemo */ = {
+		6CCEC54628F8D5C0000850E4 /* SimulacraIOSDemo */ = {
 			isa = PBXGroup;
 			children = (
 				6CCEC57928F924BE000850E4 /* Info.plist */,
@@ -89,7 +89,7 @@
 				6CCEC54D28F8D5C1000850E4 /* Preview Content */,
 				6CCEC57728F8F823000850E4 /* Network.swift */,
 			);
-			path = SimulcraIOSDemo;
+			path = SimulacraIOSDemo;
 			sourceTree = "<group>";
 		};
 		6CCEC54D28F8D5C1000850E4 /* Preview Content */ = {
@@ -100,13 +100,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6CCEC56128F8D5C1000850E4 /* SimulcraIOSDemoUITests */ = {
+		6CCEC56128F8D5C1000850E4 /* SimulacraIOSDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				6CCEC57A28FEDF39000850E4 /* Info.plist */,
 				6CCEC56428F8D5C1000850E4 /* UITests.swift */,
 			);
-			path = SimulcraIOSDemoUITests;
+			path = SimulacraIOSDemoUITests;
 			sourceTree = "<group>";
 		};
 		6CCEC57428F8D6FC000850E4 /* Frameworks */ = {
@@ -119,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CCEC54328F8D5C0000850E4 /* SimulcraIOSDemo */ = {
+		6CCEC54328F8D5C0000850E4 /* SimulacraIOSDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemo" */;
+			buildConfigurationList = 6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemo" */;
 			buildPhases = (
 				6CCEC54028F8D5C0000850E4 /* Sources */,
 				6CCEC54128F8D5C0000850E4 /* Frameworks */,
@@ -131,16 +131,16 @@
 			);
 			dependencies = (
 			);
-			name = SimulcraIOSDemo;
+			name = SimulacraIOSDemo;
 			packageProductDependencies = (
 			);
 			productName = SimulcraIOSDemo;
-			productReference = 6CCEC54428F8D5C0000850E4 /* SimulcraIOSDemo.app */;
+			productReference = 6CCEC54428F8D5C0000850E4 /* SimulacraIOSDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CCEC55D28F8D5C1000850E4 /* SimulcraIOSDemoUITests */ = {
+		6CCEC55D28F8D5C1000850E4 /* SimulacraIOSDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemoUITests" */;
+			buildConfigurationList = 6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemoUITests" */;
 			buildPhases = (
 				6CCEC55A28F8D5C1000850E4 /* Sources */,
 				6CCEC55B28F8D5C1000850E4 /* Frameworks */,
@@ -151,13 +151,13 @@
 			dependencies = (
 				6CCEC56028F8D5C1000850E4 /* PBXTargetDependency */,
 			);
-			name = SimulcraIOSDemoUITests;
+			name = SimulacraIOSDemoUITests;
 			packageProductDependencies = (
-				6CCEC57528F8D6FC000850E4 /* simulcra-core */,
 				6CCEC57C28FF7A31000850E4 /* Nimble */,
+				6CC042EC29021821006A9066 /* Simulacra-core */,
 			);
 			productName = SimulcraIOSDemoUITests;
-			productReference = 6CCEC55E28F8D5C1000850E4 /* SimulcraIOSDemoUITests.xctest */;
+			productReference = 6CCEC55E28F8D5C1000850E4 /* SimulacraIOSDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -179,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulcraIOSDemo" */;
+			buildConfigurationList = 6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulacraIOSDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,15 +189,15 @@
 			);
 			mainGroup = 6CCEC53B28F8D5C0000850E4;
 			packageReferences = (
-				6CCEC57128F8D683000850E4 /* XCRemoteSwiftPackageReference "Simulcra" */,
 				6CCEC57B28FF7A31000850E4 /* XCRemoteSwiftPackageReference "Nimble" */,
+				6CC042EB2902175F006A9066 /* XCRemoteSwiftPackageReference "Simulacra" */,
 			);
 			productRefGroup = 6CCEC54528F8D5C0000850E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CCEC54328F8D5C0000850E4 /* SimulcraIOSDemo */,
-				6CCEC55D28F8D5C1000850E4 /* SimulcraIOSDemoUITests */,
+				6CCEC54328F8D5C0000850E4 /* SimulacraIOSDemo */,
+				6CCEC55D28F8D5C1000850E4 /* SimulacraIOSDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,7 +245,7 @@
 /* Begin PBXTargetDependency section */
 		6CCEC56028F8D5C1000850E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CCEC54328F8D5C0000850E4 /* SimulcraIOSDemo */;
+			target = 6CCEC54328F8D5C0000850E4 /* SimulacraIOSDemo */;
 			targetProxy = 6CCEC55F28F8D5C1000850E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimulcraIOSDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimulacraIOSDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -402,7 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimulcraIOSDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimulacraIOSDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -433,7 +433,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulcraIOSDemoUITests/Info.plist;
+				INFOPLIST_FILE = SimulacraIOSDemoUITests/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Access the local network";
 				MARKETING_VERSION = 1.0;
@@ -454,7 +454,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulcraIOSDemoUITests/Info.plist;
+				INFOPLIST_FILE = SimulacraIOSDemoUITests/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Access the local network";
 				MARKETING_VERSION = 1.0;
@@ -470,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulcraIOSDemo" */ = {
+		6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulacraIOSDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CCEC56628F8D5C1000850E4 /* Debug */,
@@ -479,7 +479,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemo" */ = {
+		6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CCEC56928F8D5C1000850E4 /* Debug */,
@@ -488,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulcraIOSDemoUITests" */ = {
+		6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CCEC56F28F8D5C1000850E4 /* Debug */,
@@ -500,9 +500,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6CCEC57128F8D683000850E4 /* XCRemoteSwiftPackageReference "Simulcra" */ = {
+		6CC042EB2902175F006A9066 /* XCRemoteSwiftPackageReference "Simulacra" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/drekka/Simulcra.git";
+			repositoryURL = "https://github.com/drekka/Simulacra.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -519,10 +519,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6CCEC57528F8D6FC000850E4 /* simulcra-core */ = {
+		6CC042EC29021821006A9066 /* Simulacra-core */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6CCEC57128F8D683000850E4 /* XCRemoteSwiftPackageReference "Simulcra" */;
-			productName = "simulcra-core";
+			package = 6CC042EB2902175F006A9066 /* XCRemoteSwiftPackageReference "Simulacra" */;
+			productName = "Simulacra-core";
 		};
 		6CCEC57C28FF7A31000850E4 /* Nimble */ = {
 			isa = XCSwiftPackageProductDependency;

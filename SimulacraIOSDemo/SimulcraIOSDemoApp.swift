@@ -1,6 +1,6 @@
 //
-//  SimulcraIOSDemoApp.swift
-//  SimulcraIOSDemo
+//  SimulacraIOSDemoApp.swift
+//  SimulacraIOSDemo
 //
 //  Created by Derek Clarkson on 14/10/2022.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SimulcraIOSDemoApp: App {
+struct SimulacraIOSDemoApp: App {
 
     private let network: Network
 

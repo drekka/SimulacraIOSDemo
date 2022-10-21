@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CCEC54328F8D5C0000850E4"
-               BuildableName = "SimulcraIOSDemo.app"
-               BlueprintName = "SimulcraIOSDemo"
-               ReferencedContainer = "container:SimulcraIOSDemo.xcodeproj">
+               BuildableName = "SimulacraIOSDemo.app"
+               BlueprintName = "SimulacraIOSDemo"
+               ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CCEC55D28F8D5C1000850E4"
-               BuildableName = "SimulcraIOSDemoUITests.xctest"
-               BlueprintName = "SimulcraIOSDemoUITests"
-               ReferencedContainer = "container:SimulcraIOSDemo.xcodeproj">
+               BuildableName = "SimulacraIOSDemoUITests.xctest"
+               BlueprintName = "SimulacraIOSDemoUITests"
+               ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CCEC54328F8D5C0000850E4"
-            BuildableName = "SimulcraIOSDemo.app"
-            BlueprintName = "SimulcraIOSDemo"
-            ReferencedContainer = "container:SimulcraIOSDemo.xcodeproj">
+            BuildableName = "SimulacraIOSDemo.app"
+            BlueprintName = "SimulacraIOSDemo"
+            ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,9 +74,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CCEC54328F8D5C0000850E4"
-            BuildableName = "SimulcraIOSDemo.app"
-            BlueprintName = "SimulcraIOSDemo"
-            ReferencedContainer = "container:SimulcraIOSDemo.xcodeproj">
+            BuildableName = "SimulacraIOSDemo.app"
+            BlueprintName = "SimulacraIOSDemo"
+            ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

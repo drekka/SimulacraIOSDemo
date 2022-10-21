@@ -73,12 +73,12 @@
       }
     },
     {
-      "identity" : "simulcra",
+      "identity" : "simulacra",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/drekka/Simulcra.git",
+      "location" : "https://github.com/drekka/Simulacra.git",
       "state" : {
         "branch" : "main",
-        "revision" : "654d797e467ba2258f11b729f2ce04648b698e07"
+        "revision" : "98bf18cbe4de767063ceb88bf6ad6beb360441a1"
       }
     },
     {

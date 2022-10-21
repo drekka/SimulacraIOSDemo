@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SimulcraIOSDemo
+//  SimulacraIOSDemo
 //
 //  Created by Derek Clarkson on 14/10/2022.
 //
