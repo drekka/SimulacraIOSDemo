@@ -1,7 +1,4 @@
 //
-//  ContentView.swift
-//  SimulacraIOSDemo
-//
 //  Created by Derek Clarkson on 14/10/2022.
 //
 
@@ -42,21 +39,26 @@ struct ContentView: View {
 
             Spacer()
 
-            Button("Go on - press me!") {
+            Button("Add to cart") {
+                Task {
+                    try await network.addToCart()
+                }
                 showAlert.toggle()
             }
-            .accessibilityIdentifier("button-alert")
-            .alert(Text("Oooh!"), isPresented: $showAlert) {
+            .accessibilityIdentifier("alert")
+            .alert(Text("Item added"), isPresented: $showAlert) {
                 Button("OK", role: .cancel) {}
             }
         }
         .padding()
-        .task {
-            do {
-                let response = try await network.getConfig()
-                configVersion = response["configVersion"] as? Double
-            } catch {
-                networkError = error
+        .onAppear {
+            Task {
+                do {
+                    let response = try await network.getConfig()
+                    configVersion = response["version"] as? Double
+                } catch {
+                    networkError = error
+                }
             }
         }
     }

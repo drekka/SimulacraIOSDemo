@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CCEC54328F8D5C0000850E4"
-               BuildableName = "SimulacraIOSDemo.app"
-               BlueprintName = "SimulacraIOSDemo"
-               ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
+               BlueprintIdentifier = "6C354709291C945100F2AF5D"
+               BuildableName = "MockServer"
+               BlueprintName = "MockServer"
+               ReferencedContainer = "container:VoodooIOSDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,18 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES"
-            testExecutionOrdering = "random">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6CCEC55D28F8D5C1000850E4"
-               BuildableName = "SimulacraIOSDemoUITests.xctest"
-               BlueprintName = "SimulacraIOSDemoUITests"
-               ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -51,15 +39,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      viewDebuggingEnabled = "No">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6CCEC54328F8D5C0000850E4"
-            BuildableName = "SimulacraIOSDemo.app"
-            BlueprintName = "SimulacraIOSDemo"
-            ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
+            BlueprintIdentifier = "6C354709291C945100F2AF5D"
+            BuildableName = "MockServer"
+            BlueprintName = "MockServer"
+            ReferencedContainer = "container:VoodooIOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,10 +62,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6CCEC54328F8D5C0000850E4"
-            BuildableName = "SimulacraIOSDemo.app"
-            BlueprintName = "SimulacraIOSDemo"
-            ReferencedContainer = "container:SimulacraIOSDemo.xcodeproj">
+            BlueprintIdentifier = "6C354709291C945100F2AF5D"
+            BuildableName = "MockServer"
+            BlueprintName = "MockServer"
+            ReferencedContainer = "container:VoodooIOSDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

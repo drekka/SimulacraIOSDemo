@@ -7,40 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CC042ED29021821006A9066 /* Simulacra-core in Frameworks */ = {isa = PBXBuildFile; productRef = 6CC042EC29021821006A9066 /* Simulacra-core */; };
-		6CCEC54828F8D5C0000850E4 /* SimulcraIOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */; };
+		6C3546DC291C743E00F2AF5D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3546DB291C743E00F2AF5D /* Endpoints.swift */; };
+		6C35470D291C945100F2AF5D /* MockServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C35470C291C945100F2AF5D /* MockServer.swift */; };
+		6C354714291C947C00F2AF5D /* Voodoo in Frameworks */ = {isa = PBXBuildFile; productRef = 6C354713291C947C00F2AF5D /* Voodoo */; };
+		6C354715291C976600F2AF5D /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3546DB291C743E00F2AF5D /* Endpoints.swift */; };
+		6C8D51B929081E2000CA5BCD /* SimpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8D51B829081E2000CA5BCD /* SimpleUITests.swift */; };
+		6C9A54002919227E008BC471 /* Voodoo in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9A53FF2919227E008BC471 /* Voodoo */; };
+		6CCEC54828F8D5C0000850E4 /* VoodooIOSDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54728F8D5C0000850E4 /* VoodooIOSDemoApp.swift */; };
 		6CCEC54A28F8D5C0000850E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC54928F8D5C0000850E4 /* ContentView.swift */; };
 		6CCEC54C28F8D5C1000850E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */; };
 		6CCEC54F28F8D5C1000850E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */; };
-		6CCEC56528F8D5C1000850E4 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC56428F8D5C1000850E4 /* UITests.swift */; };
+		6CCEC56528F8D5C1000850E4 /* UITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC56428F8D5C1000850E4 /* UITestCase.swift */; };
 		6CCEC57828F8F823000850E4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCEC57728F8F823000850E4 /* Network.swift */; };
 		6CCEC57D28FF7A31000850E4 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 6CCEC57C28FF7A31000850E4 /* Nimble */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6CCEC55F28F8D5C1000850E4 /* PBXContainerItemProxy */ = {
+		6C3546DD291C7BDC00F2AF5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6CCEC53C28F8D5C0000850E4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6CCEC54328F8D5C0000850E4;
-			remoteInfo = SimulcraIOSDemo;
+			remoteInfo = Demo;
+		};
+		6C354711291C946900F2AF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CCEC53C28F8D5C0000850E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CCEC55D28F8D5C1000850E4;
+			remoteInfo = DemoUITests;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6C354708291C945100F2AF5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		6CCEC54428F8D5C0000850E4 /* SimulacraIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulacraIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulcraIOSDemoApp.swift; sourceTree = "<group>"; };
+		6C3546DB291C743E00F2AF5D /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		6C3546F7291C929500F2AF5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		6C3546F9291C929500F2AF5D /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C35470A291C945100F2AF5D /* MockServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MockServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C35470C291C945100F2AF5D /* MockServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServer.swift; sourceTree = "<group>"; };
+		6C8D51B829081E2000CA5BCD /* SimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUITests.swift; sourceTree = "<group>"; };
+		6CCEC54428F8D5C0000850E4 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEC54728F8D5C0000850E4 /* VoodooIOSDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoodooIOSDemoApp.swift; sourceTree = "<group>"; };
 		6CCEC54928F8D5C0000850E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CCEC54E28F8D5C1000850E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6CCEC55E28F8D5C1000850E4 /* SimulacraIOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulacraIOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CCEC56428F8D5C1000850E4 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		6CCEC55E28F8D5C1000850E4 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CCEC56428F8D5C1000850E4 /* UITestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestCase.swift; sourceTree = "<group>"; };
 		6CCEC57728F8F823000850E4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		6CCEC57928F924BE000850E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6CCEC57A28FEDF39000850E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6C354707291C945100F2AF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C354714291C947C00F2AF5D /* Voodoo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CCEC54128F8D5C0000850E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -52,19 +90,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9A54002919227E008BC471 /* Voodoo in Frameworks */,
 				6CCEC57D28FF7A31000850E4 /* Nimble in Frameworks */,
-				6CC042ED29021821006A9066 /* Simulacra-core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C35470B291C945100F2AF5D /* MockServer */ = {
+			isa = PBXGroup;
+			children = (
+				6C35470C291C945100F2AF5D /* MockServer.swift */,
+			);
+			path = MockServer;
+			sourceTree = "<group>";
+		};
 		6CCEC53B28F8D5C0000850E4 = {
 			isa = PBXGroup;
 			children = (
-				6CCEC54628F8D5C0000850E4 /* SimulacraIOSDemo */,
-				6CCEC56128F8D5C1000850E4 /* SimulacraIOSDemoUITests */,
+				6CCEC54628F8D5C0000850E4 /* Demo */,
+				6CCEC56128F8D5C1000850E4 /* DemoUITests */,
+				6C35470B291C945100F2AF5D /* MockServer */,
 				6CCEC54528F8D5C0000850E4 /* Products */,
 				6CCEC57428F8D6FC000850E4 /* Frameworks */,
 			);
@@ -73,23 +120,24 @@
 		6CCEC54528F8D5C0000850E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CCEC54428F8D5C0000850E4 /* SimulacraIOSDemo.app */,
-				6CCEC55E28F8D5C1000850E4 /* SimulacraIOSDemoUITests.xctest */,
+				6CCEC54428F8D5C0000850E4 /* Demo.app */,
+				6CCEC55E28F8D5C1000850E4 /* DemoUITests.xctest */,
+				6C35470A291C945100F2AF5D /* MockServer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6CCEC54628F8D5C0000850E4 /* SimulacraIOSDemo */ = {
+		6CCEC54628F8D5C0000850E4 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				6CCEC57928F924BE000850E4 /* Info.plist */,
-				6CCEC54728F8D5C0000850E4 /* SimulcraIOSDemoApp.swift */,
+				6CCEC54728F8D5C0000850E4 /* VoodooIOSDemoApp.swift */,
 				6CCEC54928F8D5C0000850E4 /* ContentView.swift */,
 				6CCEC54B28F8D5C1000850E4 /* Assets.xcassets */,
 				6CCEC54D28F8D5C1000850E4 /* Preview Content */,
 				6CCEC57728F8F823000850E4 /* Network.swift */,
 			);
-			path = SimulacraIOSDemo;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		6CCEC54D28F8D5C1000850E4 /* Preview Content */ = {
@@ -100,18 +148,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6CCEC56128F8D5C1000850E4 /* SimulacraIOSDemoUITests */ = {
+		6CCEC56128F8D5C1000850E4 /* DemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				6CCEC57A28FEDF39000850E4 /* Info.plist */,
-				6CCEC56428F8D5C1000850E4 /* UITests.swift */,
+				6CCEC56428F8D5C1000850E4 /* UITestCase.swift */,
+				6C8D51B829081E2000CA5BCD /* SimpleUITests.swift */,
+				6C3546DB291C743E00F2AF5D /* Endpoints.swift */,
 			);
-			path = SimulacraIOSDemoUITests;
+			path = DemoUITests;
 			sourceTree = "<group>";
 		};
 		6CCEC57428F8D6FC000850E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C3546F7291C929500F2AF5D /* Cocoa.framework */,
+				6C3546F9291C929500F2AF5D /* XcodeKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,9 +171,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CCEC54328F8D5C0000850E4 /* SimulacraIOSDemo */ = {
+		6C354709291C945100F2AF5D /* MockServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemo" */;
+			buildConfigurationList = 6C35470E291C945100F2AF5D /* Build configuration list for PBXNativeTarget "MockServer" */;
+			buildPhases = (
+				6C354706291C945100F2AF5D /* Sources */,
+				6C354707291C945100F2AF5D /* Frameworks */,
+				6C354708291C945100F2AF5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C354712291C946900F2AF5D /* PBXTargetDependency */,
+			);
+			name = MockServer;
+			packageProductDependencies = (
+				6C354713291C947C00F2AF5D /* Voodoo */,
+			);
+			productName = MockServer;
+			productReference = 6C35470A291C945100F2AF5D /* MockServer */;
+			productType = "com.apple.product-type.tool";
+		};
+		6CCEC54328F8D5C0000850E4 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				6CCEC54028F8D5C0000850E4 /* Sources */,
 				6CCEC54128F8D5C0000850E4 /* Frameworks */,
@@ -131,16 +204,16 @@
 			);
 			dependencies = (
 			);
-			name = SimulacraIOSDemo;
+			name = Demo;
 			packageProductDependencies = (
 			);
 			productName = SimulcraIOSDemo;
-			productReference = 6CCEC54428F8D5C0000850E4 /* SimulacraIOSDemo.app */;
+			productReference = 6CCEC54428F8D5C0000850E4 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CCEC55D28F8D5C1000850E4 /* SimulacraIOSDemoUITests */ = {
+		6CCEC55D28F8D5C1000850E4 /* DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemoUITests" */;
+			buildConfigurationList = 6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "DemoUITests" */;
 			buildPhases = (
 				6CCEC55A28F8D5C1000850E4 /* Sources */,
 				6CCEC55B28F8D5C1000850E4 /* Frameworks */,
@@ -149,15 +222,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				6CCEC56028F8D5C1000850E4 /* PBXTargetDependency */,
+				6C3546DE291C7BDC00F2AF5D /* PBXTargetDependency */,
 			);
-			name = SimulacraIOSDemoUITests;
+			name = DemoUITests;
 			packageProductDependencies = (
 				6CCEC57C28FF7A31000850E4 /* Nimble */,
-				6CC042EC29021821006A9066 /* Simulacra-core */,
+				6C9A53FF2919227E008BC471 /* Voodoo */,
 			);
 			productName = SimulcraIOSDemoUITests;
-			productReference = 6CCEC55E28F8D5C1000850E4 /* SimulacraIOSDemoUITests.xctest */;
+			productReference = 6CCEC55E28F8D5C1000850E4 /* DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -170,6 +243,9 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					6C354709291C945100F2AF5D = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					6CCEC54328F8D5C0000850E4 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -179,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulacraIOSDemo" */;
+			buildConfigurationList = 6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "VoodooIOSDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,14 +266,15 @@
 			mainGroup = 6CCEC53B28F8D5C0000850E4;
 			packageReferences = (
 				6CCEC57B28FF7A31000850E4 /* XCRemoteSwiftPackageReference "Nimble" */,
-				6CC042EB2902175F006A9066 /* XCRemoteSwiftPackageReference "Simulacra" */,
+				6C906A68291921D4004414D2 /* XCRemoteSwiftPackageReference "Voodoo" */,
 			);
 			productRefGroup = 6CCEC54528F8D5C0000850E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CCEC54328F8D5C0000850E4 /* SimulacraIOSDemo */,
-				6CCEC55D28F8D5C1000850E4 /* SimulacraIOSDemoUITests */,
+				6CCEC54328F8D5C0000850E4 /* Demo */,
+				6CCEC55D28F8D5C1000850E4 /* DemoUITests */,
+				6C354709291C945100F2AF5D /* MockServer */,
 			);
 		};
 /* End PBXProject section */
@@ -222,12 +299,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6C354706291C945100F2AF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C354715291C976600F2AF5D /* Endpoints.swift in Sources */,
+				6C35470D291C945100F2AF5D /* MockServer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6CCEC54028F8D5C0000850E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6CCEC54A28F8D5C0000850E4 /* ContentView.swift in Sources */,
-				6CCEC54828F8D5C0000850E4 /* SimulcraIOSDemoApp.swift in Sources */,
+				6CCEC54828F8D5C0000850E4 /* VoodooIOSDemoApp.swift in Sources */,
 				6CCEC57828F8F823000850E4 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,21 +322,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCEC56528F8D5C1000850E4 /* UITests.swift in Sources */,
+				6CCEC56528F8D5C1000850E4 /* UITestCase.swift in Sources */,
+				6C8D51B929081E2000CA5BCD /* SimpleUITests.swift in Sources */,
+				6C3546DC291C743E00F2AF5D /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6CCEC56028F8D5C1000850E4 /* PBXTargetDependency */ = {
+		6C3546DE291C7BDC00F2AF5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CCEC54328F8D5C0000850E4 /* SimulacraIOSDemo */;
-			targetProxy = 6CCEC55F28F8D5C1000850E4 /* PBXContainerItemProxy */;
+			target = 6CCEC54328F8D5C0000850E4 /* Demo */;
+			targetProxy = 6C3546DD291C7BDC00F2AF5D /* PBXContainerItemProxy */;
+		};
+		6C354712291C946900F2AF5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CCEC55D28F8D5C1000850E4 /* DemoUITests */;
+			targetProxy = 6C354711291C946900F2AF5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6C35470F291C945100F2AF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MHZ7974Y8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.VoodooIDemoServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C354710291C945100F2AF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MHZ7974Y8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.VoodooIDemoServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		6CCEC56628F8D5C1000850E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,11 +495,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimulacraIOSDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Demo/Preview\\ Content/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulcraIOSDemo/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -387,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.VoodooIOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -402,11 +525,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimulacraIOSDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Demo/Preview\\ Content/Preview\\ Assets.xcassets";
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulcraIOSDemo/Info.plist;
+				INFOPLIST_FILE = Demo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -417,7 +540,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.VoodooIOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -433,16 +556,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulacraIOSDemoUITests/Info.plist;
+				INFOPLIST_FILE = DemoUITests/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Access the local network";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.VoodooIOSDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimulcraIOSDemo;
+				TEST_TARGET_NAME = Demo;
 			};
 			name = Debug;
 		};
@@ -454,23 +578,33 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3MHZ7974Y8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimulacraIOSDemoUITests/Info.plist;
+				INFOPLIST_FILE = DemoUITests/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Access the local network";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.SimulcraIOSDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.derekclarkson.VoodooIOSDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimulcraIOSDemo;
+				TEST_TARGET_NAME = Demo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "SimulacraIOSDemo" */ = {
+		6C35470E291C945100F2AF5D /* Build configuration list for PBXNativeTarget "MockServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C35470F291C945100F2AF5D /* Debug */,
+				6C354710291C945100F2AF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CCEC53F28F8D5C0000850E4 /* Build configuration list for PBXProject "VoodooIOSDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CCEC56628F8D5C1000850E4 /* Debug */,
@@ -479,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemo" */ = {
+		6CCEC56828F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CCEC56928F8D5C1000850E4 /* Debug */,
@@ -488,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "SimulacraIOSDemoUITests" */ = {
+		6CCEC56E28F8D5C1000850E4 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CCEC56F28F8D5C1000850E4 /* Debug */,
@@ -500,12 +634,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6CC042EB2902175F006A9066 /* XCRemoteSwiftPackageReference "Simulacra" */ = {
+		6C906A68291921D4004414D2 /* XCRemoteSwiftPackageReference "Voodoo" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/drekka/Simulacra.git";
+			repositoryURL = "http://github.com/drekka/Voodoo";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
 			};
 		};
 		6CCEC57B28FF7A31000850E4 /* XCRemoteSwiftPackageReference "Nimble" */ = {
@@ -519,10 +653,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6CC042EC29021821006A9066 /* Simulacra-core */ = {
+		6C354713291C947C00F2AF5D /* Voodoo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6CC042EB2902175F006A9066 /* XCRemoteSwiftPackageReference "Simulacra" */;
-			productName = "Simulacra-core";
+			package = 6C906A68291921D4004414D2 /* XCRemoteSwiftPackageReference "Voodoo" */;
+			productName = Voodoo;
+		};
+		6C9A53FF2919227E008BC471 /* Voodoo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C906A68291921D4004414D2 /* XCRemoteSwiftPackageReference "Voodoo" */;
+			productName = Voodoo;
 		};
 		6CCEC57C28FF7A31000850E4 /* Nimble */ = {
 			isa = XCSwiftPackageProductDependency;

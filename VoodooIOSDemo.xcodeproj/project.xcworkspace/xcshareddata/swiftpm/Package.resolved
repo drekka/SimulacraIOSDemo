@@ -3,10 +3,10 @@
     {
       "identity" : "anycodable",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/drekka/AnyCodable",
+      "location" : "https://github.com/Flight-School/AnyCodable",
       "state" : {
-        "branch" : "develop/dc-missing-string-interpolation",
-        "revision" : "a6242816afc292c1daececcf46ae8b5b98123805"
+        "revision" : "862808b2070cd908cb04f9aafe7de83d35f81b05",
+        "version" : "0.6.7"
       }
     },
     {
@@ -28,12 +28,21 @@
       }
     },
     {
+      "identity" : "graphql",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GraphQLSwift/GraphQL",
+      "state" : {
+        "revision" : "ad4a71514c604de040a53d6ef37b2c18435e825e",
+        "version" : "2.4.3"
+      }
+    },
+    {
       "identity" : "hummingbird",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hummingbird-project/hummingbird",
       "state" : {
-        "branch" : "main",
-        "revision" : "564f63f0944828b041a85a539186cf6b6a667406"
+        "revision" : "8a117a1b757a455f8804afa94371cda8850f6d6c",
+        "version" : "0.16.3"
       }
     },
     {
@@ -57,10 +66,10 @@
     {
       "identity" : "jxkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/drekka/JXKit.git",
+      "location" : "https://github.com/jectivex/JXKit.git",
       "state" : {
-        "branch" : "feature/decoding-urls",
-        "revision" : "af2e4c951204581ae5cae537f66dd043327b4cd5"
+        "revision" : "9880ed92586c082c6238db520c7422cba56f09d7",
+        "version" : "3.2.3"
       }
     },
     {
@@ -73,21 +82,12 @@
       }
     },
     {
-      "identity" : "simulacra",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/drekka/Simulacra.git",
-      "state" : {
-        "branch" : "main",
-        "revision" : "98bf18cbe4de767063ceb88bf6ad6beb360441a1"
-      }
-    },
-    {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
       "state" : {
-        "revision" : "9f39744e025c7d377987f30b03770805dcb0bcd1",
-        "version" : "1.1.4"
+        "revision" : "fddd1c00396eed152c45a46bea9f47b98e59301d",
+        "version" : "1.2.0"
       }
     },
     {
@@ -140,8 +140,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio.git",
       "state" : {
-        "revision" : "bc4c55b9f9584f09eb971d67d956e28d08caa9d0",
-        "version" : "2.43.1"
+        "revision" : "edfceecba13d68c1c993382806e72f7e96feaa86",
+        "version" : "2.44.0"
       }
     },
     {
@@ -149,8 +149,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio-extras.git",
       "state" : {
-        "revision" : "6c84d247754ad77487a6f0694273b89b83efd056",
-        "version" : "1.14.0"
+        "revision" : "91dd2d61fb772e1311bb5f13b59266b579d77e42",
+        "version" : "1.15.0"
       }
     },
     {
@@ -158,8 +158,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio-http2.git",
       "state" : {
-        "revision" : "00576e6f1efa5c46dca2ca3081dc56dd233b402d",
-        "version" : "1.23.0"
+        "revision" : "d6656967f33ed8b368b38e4b198631fc7c484a40",
+        "version" : "1.23.1"
       }
     },
     {
@@ -167,8 +167,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio-ssl.git",
       "state" : {
-        "revision" : "ba7c0d7f82affc518147ea61d240330bf7f7ea9b",
-        "version" : "2.22.1"
+        "revision" : "4fb7ead803e38949eb1d6fabb849206a72c580f3",
+        "version" : "2.23.0"
       }
     },
     {
@@ -176,8 +176,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-nio-transport-services.git",
       "state" : {
-        "revision" : "b6e37a0d442745760d6ed0195d8f283d3ce0414a",
-        "version" : "1.14.1"
+        "revision" : "c0d9a144cfaec8d3d596aadde3039286a266c15c",
+        "version" : "1.15.0"
       }
     },
     {
@@ -187,6 +187,15 @@
       "state" : {
         "revision" : "22363fed316cd9942b56bcd1a1df8875df79b794",
         "version" : "1.0.0-alpha.11"
+      }
+    },
+    {
+      "identity" : "voodoo",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/drekka/Voodoo",
+      "state" : {
+        "revision" : "7cdc231d54eeb821fbe16c48c16a34385571ccc7",
+        "version" : "0.2.2"
       }
     },
     {

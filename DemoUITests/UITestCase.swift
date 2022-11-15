@@ -2,7 +2,7 @@
 //  Created by Derek Clarkson on 14/10/2022.
 //
 
-import SimulacraCore
+import Voodoo
 import XCTest
 import Nimble
 
@@ -11,7 +11,7 @@ import Nimble
 open class UITestCase: XCTestCase {
 
     /// The mock server.
-    private(set) var server: Simulacra!
+    private(set) var server: VoodooServer!
 
     /// Local app reference.
     private(set) var app: XCUIApplication!
@@ -34,7 +34,7 @@ open class UITestCase: XCTestCase {
     ///
     /// - parameter endpoints: The end points needed by the server.
     func launchServer(@EndpointBuilder endpoints: () -> [Endpoint]) throws {
-        server = try Simulacra(verbose: true, endpoints: endpoints)
+        server = try VoodooServer(verbose: true, endpoints: endpoints)
     }
 
     /// Launches your app, passing the common launch arguments and any additional
@@ -47,39 +47,5 @@ open class UITestCase: XCTestCase {
         app = XCUIApplication()
         app.launchArguments = launchArguments + additionalLaunchArguments
         app.launch()
-    }
-}
-
-// Simple test suite where the same launch is done for every test.
-class SimpleUITests: UITestCase {
-
-    override open func setUpWithError() throws {
-        try super.setUpWithError()
-        try launchServer {
-            Endpoint(.GET, "/config", response: .ok(body: .json(["configVersion": 1.0])))
-        }
-        launchApp()
-    }
-
-    func testConfigIsLoaded() throws {
-        let configText = app.staticTexts["config-message"].firstMatch
-        _ = configText.waitForExistence(timeout: 5.0)
-        expect(configText.label) == "Config version: 1.00"
-    }
-}
-
-// Test suite where each test has it's own setup.
-class IndividualUITests: UITestCase {
-
-    func testConfigIsLoaded() throws {
-
-        try launchServer {
-            Endpoint(.GET, "/config", response: .ok(body: .json(["configVersion": 1.0])))
-        }
-        launchApp()
-
-        let configText = app.staticTexts["config-message"].firstMatch
-        _ = configText.waitForExistence(timeout: 5.0)
-        expect(configText.label) == "Config version: 1.00"
     }
 }
